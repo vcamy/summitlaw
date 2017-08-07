@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "https://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="3.1" type="template" method ="upgrade" client="site">
+	<name>Summit Law</name>
+	<creationDate>3 Aug 2017</creationDate>
+	<author>Amy Workshop</author>
+	<authorEmail>amyworkshop.test@gmail.com</authorEmail>
+	<authorUrl>www.google.com</authorUrl>
+	<copyright>Copyright (C) 2005 - 2017 Open Source Matters, Inc. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<version>3.1.0</version>
+	<description>This is template for summit law firm</description>
+	
+	<files>
+		<folder>css</folder>
+		<folder>fonts</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<filename>index.php</filename>
+		<filename>index.html</filename>
+		<filename>templateDetails.xml</filename>
+	</files>
+	
+	<positions>
+		<position>menu</position>
+		<position>about</position>
+		<position>service</position>
+		<position>contact</position>
+		<position>footer</position>
+	</positions>
+	
+	<config>
+		<fields name="params">
+			<fieldset name="general" label="General">
+				<field name="logo_pic" type="media"
+					label="company logo" description="company logo" />
+        
+				<field name="copyright_text"  type="text" 
+					label="copyright text"
+					description="copyright text"/>
+
+			</fieldset>
+		</fields>
+	</config>
+</extension>
