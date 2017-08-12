@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "https://www.joomla.org/xml/dtd/1.6/template-install.dtd">
 <extension version="3.1" type="template" method ="upgrade" client="site">
-	<name>Summit Law</name>
-	<creationDate>3 Aug 2017</creationDate>
+	<name>Summit Law Demo V0.3</name>
+	<creationDate>12 Aug 2017</creationDate>
 	<author>Amy Workshop</author>
 	<authorEmail>amyworkshop.test@gmail.com</authorEmail>
 	<authorUrl>www.google.com</authorUrl>
@@ -17,7 +17,6 @@
 		<folder>images</folder>
 		<folder>js</folder>
 		<filename>index.php</filename>
-		<filename>index.html</filename>
 		<filename>templateDetails.xml</filename>
 	</files>
 	

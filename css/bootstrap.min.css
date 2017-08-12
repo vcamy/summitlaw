@@ -726,7 +726,7 @@ pre {
 
 .row {
     margin-right: -15px;
-    margin-left: -15px
+    margin-left: -15px;
 }
 
     .row:before, .row:after {
@@ -1000,7 +1000,7 @@ pre {
     }
 
     .col-sm-4 {
-        width: 33.33333333333333%
+        width: 50%;
     }
 
     .col-sm-3 {

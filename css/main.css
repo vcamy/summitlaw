@@ -259,7 +259,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #navigation .navbar-nav.navbar-right {
-	margin-top:28px
+	margin-top:8em;
 }
 
 #navigation .navbar-nav.navbar-right li a {
@@ -592,22 +592,28 @@ h1, h2, h3, h4, h5, h6 {
 ======================*/
 
 #services {
-  background-image: url("../images/services/service-bg.jpg");
-  color:#fff;
-  text-align:center;
-  background-color:	#0A0A13;
+    color: #fff;
+    text-align: center;
+    background: #F6F6F6;
 }
 
 .services {
 	display:block;
 	overflow:hidden;
-	margin-top:50px
+	margin-top:50px;
 }
 
 #services h2{
-  color: #fff;
-  border-color: #fff;
-  margin-bottom:35px
+  margin-bottom:25px;
+  text-align: left;
+  margin-left: 1em;
+  color: #43484E
+}
+
+#services a{
+	text-decoration: underline;
+	color: #333;
+	margin-left: 1.2em;
 }
 
 .single-service {
@@ -624,14 +630,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .single-service i {
-	text-align:center;
+	text-align:left;
 	font-size:80px;
 	background-color: #fff;
 	border-radius: 50%;
 	display: inline-block;
-	height: 150px;
-	line-height: 150px;
-	width: 150px;
+	height: 50px;
+	line-height: 50px;
+	width: 50px;
 	color:#43484E;
 	transition: all 0.9s ease 0s;
 	-moz-transition: all 0.9s ease 0s;
@@ -651,8 +657,7 @@ h1, h2, h3, h4, h5, h6 {
 	-ms-transform: scale(1.1) rotate(360deg);
 	transform: scale(1.1) rotate(360deg);
 }
-
-
+	
 /*=====================
 ======Our Team CSS=====
 =======================*/
@@ -1235,9 +1240,16 @@ h1, h2, h3, h4, h5, h6 {
 	
 }
 
+.contact-barcode{
+	position: relative;
+	text-align: center;
+	display: inline-block;
+	
+}
+
 #contact-form-section {	
-	padding:35px;
-	background-color: #FFF; 
+	padding:15px;
+	background-color: transparent; 
 	height:390px;
 }
 #contact-form-section .btn-primary {
